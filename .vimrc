@@ -5,6 +5,8 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
+" syntax highlighting
+syntax on
 " toggle paste mode by pressing <F2>
 set pastetoggle=<F2>
 " enable mouse support
