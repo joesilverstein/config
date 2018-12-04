@@ -7,3 +7,7 @@ set shiftwidth=4
 set expandtab
 " toggle paste mode by pressing <F2>
 set pastetoggle=<F2>
+" enable mouse support
+if has('mouse')
+  set mouse=a
+endif
