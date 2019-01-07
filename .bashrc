@@ -121,3 +121,7 @@ alias chrome=google-chrome
 
 # make vim the default editor for eb config
 export EDITOR=vim
+
+# Allows virtualenvwrapper to work
+export WORKON_HOME=~/.virtualenvs
+source /etc/bash_completion.d/virtualenvwrapper
