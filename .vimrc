@@ -9,6 +9,11 @@ set expandtab
 syntax on
 " toggle paste mode by pressing <F2>
 set pastetoggle=<F2>
+" Press F4 to toggle highlighting on/off, and show current value.
+:noremap <F4> :set hlsearch! hlsearch?<CR>
+" Press Space to turn off highlighting and clear any message already 
+" displayed.
+:nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " enable mouse support
 " if has('mouse')
 "   set mouse=a
