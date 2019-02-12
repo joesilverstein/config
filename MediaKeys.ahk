@@ -10,3 +10,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 +Left::Send {Media_Prev}
 ;; Map Shift + RightArrow to {Media_Next}
 +Right::Send {Media_Next}
++Up::Send {Media_Play_Pause}
++Down::Send {Media_Play_Pause}
